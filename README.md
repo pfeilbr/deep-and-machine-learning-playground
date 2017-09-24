@@ -20,19 +20,19 @@ jupyter notebook
 
 ## To save container changes
 
-for example to save software installs (e.g. apache mxnet was added to image
+for example to save software installs (e.g. apache mxnet was added to image)
 
 ```sh
 # list images to find commit id
 docker ps -a
 
-docker commit 5b4a6fb7117b pfeilbr/deep-and-machine-learning:TAG
-
+# commit changes
+# docker commit 5b4a6fb7117b pfeilbr/deep-and-machine-learning:TAG
 # e.g. 
 docker commit 5b4a6fb7117b pfeilbr/deep-and-machine-learning:v2
 
-docker push pfeilbr/deep-and-machine-learning:TAG
-
+# push new image to docker hub
+# docker push pfeilbr/deep-and-machine-learning:TAG
 # e.g.
 docker push pfeilbr/deep-and-machine-learning:v2
 ```
