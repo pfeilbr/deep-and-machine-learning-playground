@@ -2,7 +2,7 @@
 
 docker image + jupyter notebook UI for learning and experimenting with deep and machine learning.
 
-docker image based on https://github.com/floydhub/dl-docker - All-in-one Docker image for Deep Learning
+docker image based on <https://github.com/floydhub/dl-docker> - All-in-one Docker image for Deep Learning
 
 docker hub image @ <https://hub.docker.com/r/pfeilbr/deep-and-machine-learning/>
 
