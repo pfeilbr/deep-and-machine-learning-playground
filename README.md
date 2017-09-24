@@ -4,6 +4,8 @@ docker image + jupyter notebook UI for learning and experimenting with deep and 
 
 docker image based on https://github.com/floydhub/dl-docker - All-in-one Docker image for Deep Learning
 
+docker hub image @ <https://hub.docker.com/r/pfeilbr/deep-and-machine-learning/>
+
 ## Running
 
 ```sh
@@ -18,7 +20,7 @@ jupyter notebook
 
 ## To save container changes
 
-for example to save software installs (e.g. apache mxnet was added to iamge)
+for example to save software installs (e.g. apache mxnet was added to image
 
 ```sh
 # list images to find commit id
